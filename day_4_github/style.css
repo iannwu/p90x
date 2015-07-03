@@ -1,0 +1,232 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#container {
+	font-family: "Helvetica Neue";
+}
+
+#header {
+	min-width: 1000px;
+ 	background-color: #f5f5f5;
+ 	border-bottom: 1px solid #e5e5e5;
+ 	/*vertical-align: middle;*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+/*.header-logo-wordmark .octicon-logo-github {
+ 	height: 26px;
+	font-size: 32px;
+	color: #333;
+}*/
+
+header {
+	width: 980px;
+	height: 28px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*#logo_container {
+	display: inline-block;
+}*/
+
+#logo {
+	height: 24px;
+	font-style: 32px;
+	color: #333;
+	text-decoration: none;
+	vertical-align: top;
+	/*display: inline-block;*/
+	margin-right: 15px;
+	float: left;
+}
+
+#search_box {
+	width: 370px;
+	/*display: inline-block;*/
+	float: left;
+	vertical-align: top;
+}
+#search {
+	width: 349px;
+	height: 22px;
+	font-family: Helvetica;
+	font-size: 12px;
+	line-height: 16px;
+	background-color: #fff;
+	border: 1px;
+	border-color: #ccc;
+	border-style: solid;
+	border-radius: 3px;
+	padding: 2px 2px 2px 7px;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+}
+
+/*
+input#search[type=text]:focus, textarea:focus {
+	outline: none;
+}
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}*/
+
+#nav {
+	display: inline-block;
+}
+
+.link_item {
+	font-size: 13px;
+ 	font-weight: bold;
+ 	line-height: 20px;
+ 	color: #333;
+ 	padding: 4px 8px;
+ 	float: left;
+}
+
+aside {
+	float: right;
+	margin-top: -3px;
+	margin-bottom: -3px;
+
+}
+
+.button {
+  	display: inline-block;
+  	padding: 6px 12px;
+  	font-size: 13px;
+  	font-weight: bold;
+  	line-height: 20px;
+  	color: #333;
+  	white-space: nowrap;
+  	vertical-align: middle;
+  	cursor: pointer;
+  	background-color: #eee;
+  	background-image: -webkit-linear-gradient(#fcfcfc, #eee);
+  	background-image: linear-gradient(#fcfcfc, #eee);
+  	border: 1px solid #d5d5d5;
+  	border-radius: 3px;
+
+}
+
+.button#sign_up {
+	color: #fff;
+	background-image: linear-gradient(#8add6d, #60b044);
+  	border-color: #5ca941;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
+	background-color: #60b044;
+}
+
+.button#sign_in {
+	margin-left: 5px;
+}
+
+#section_1 {
+	background: #202021 url(octicons-bg.png) center repeat;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-shadow: 0 1px 3px #222;
+}
+
+.container {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.heading {
+	margin-top: 0px;
+	margin-bottom: 15px;
+	padding-top: 10px;
+	font-size: 70px;
+	font-weight: normal;
+	line-height: 1;
+	color: #fff;
+	letter-spacing: -1px;
+	/*float: left;*/
+	display: block;
+}
+
+
+.subheading {
+	margin: 10px 0 0;
+	font-size: 21px;
+	line-height: 1.5;
+	color: #fff;
+	word-wrap: break-word;
+	/*float: left;*/
+	display: block;
+}
+.subheading a {
+	font-weight: 500;
+}
+
+
+
+p a {
+	color: #4078c0;
+	text-decoration: none;
+	word-wrap: break-word;
+}
+
+
+#sign_up_form {
+	word-wrap: break-word;
+	width: 320px;
+ 	margin-left: 40px;
+	float: right;
+}
+
+.form {
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.textfield {
+	width: 100%;
+	height: 22px;
+	margin-right: 0;
+	padding: 10px;
+	font-family: Helvetica;
+	font-size: 16px;
+	border: 1px solid #fff;
+	/*border-color: #fff;*/
+	box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+	border-radius: 5px;
+    outline: none;
+	box-shadow: none;
+
+}
+
+.button_2 {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border: 0px;
+	border-radius: 5px;
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
+	background-color: #60b044;
+	background-image: linear-gradient(#8add6d, #60b044);
+	border-color: #5ca941;
+	cursor: pointer;
+}
+
+p.text-muted {
+	margin-top: 5px;
+	margin-bottom: 0px;
+	color: #767676;
+	font-size: 13px;
+	float: right;
+	/*font-family: "Helvetica Neue";*/
+}
+
+dd {
+	margin: 0px;
+}
